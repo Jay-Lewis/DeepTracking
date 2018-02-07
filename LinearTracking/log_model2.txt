@@ -1,0 +1,23 @@
+[program started on Thu Dec  7 07:45:43 2017] 
+[command line arguments] 
+gpu 1 
+model model2 
+initweights  
+grid_minX -25 
+iter 60000 
+learningRate 0.01 
+grid_maxX 25 
+grid_maxY 5 
+sensor_step 0.5 
+grid_minY -45 
+N 100 
+sensor_start -180 
+data data.t7 
+saveiter 1000 
+grid_step 1 
+[----------------------] 
+Using GPU 1 
+Loading training data from file 
+Occupancy grid has size 51x51 
+Number of sequences 1 
+Model has 90209 parameters 
